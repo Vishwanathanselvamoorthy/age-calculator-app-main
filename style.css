@@ -14,7 +14,7 @@ body {
 }
 .main-container {
   background-color: white;
-  border-radius: 20px 20px 200px 20px;
+  border-radius: 20px 20px 100px 20px;
   padding: 30px;
   min-width: 368px;
 }
@@ -83,6 +83,7 @@ body {
 @media only screen and (min-width: 1024px) {
   .main-container {
     width: 800px;
+    border-radius: 20px 20px 200px 20px;
   }
   .main-container .flex-content .flex-box {
     display: flex;
