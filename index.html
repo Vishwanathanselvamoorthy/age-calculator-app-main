@@ -37,18 +37,18 @@
     <div class="main-container">
       <div class="flex-content">
         <div class="flex-box">
-          <label>DAY</label>
-          <input id="day-input" type="number" placeholder="" />
+          <label id="day-label">DAY</label>
+          <input id="day-input" type="number" placeholder="DD" />
           <small id="error-day"></small>
         </div>
         <div class="flex-box">
-          <label>MONTH</label>
-          <input id="month-input" type="number" />
+          <label id="month-label">MONTH</label>
+          <input id="month-input" type="number" placeholder="MM" />
           <small id="error-month"></small>
         </div>
         <div class="flex-box">
-          <label>YEAR</label>
-          <input id="year-input" type="number" />
+          <label id="year-label">YEAR</label>
+          <input id="year-input" type="number" placeholder="YYYY" />
           <small id="error-year"></small>
         </div>
       </div>
@@ -57,9 +57,9 @@
       </div>
 
       <div class="text-container">
-        <h1><span id="year-result">38</span> Years</h1>
-        <h1><span id="month-result">3</span> Months</h1>
-        <h1><span id="day-result">26</span> Days</h1>
+        <h1><span id="year-result">--</span> Years</h1>
+        <h1><span id="month-result">--</span> Months</h1>
+        <h1><span id="day-result">--</span> Days</h1>
       </div>
     </div>
     <script src="script.js"></script>

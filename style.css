@@ -14,7 +14,7 @@ body {
 }
 .main-container {
   background-color: white;
-  border-radius: 20px 20px 80px 20px;
+  border-radius: 20px 20px 200px 20px;
   padding: 30px;
   min-width: 368px;
 }
@@ -41,7 +41,10 @@ body {
   border-radius: 7px;
   text-align: center;
   border: 2px solid hsl(0, 1%, 44%);
+  font-size: 20px;
+  font-weight: 700;
 }
+
 .main-container .flex-content .flex-box small {
   color: red;
   font-size: 12px;
@@ -51,6 +54,7 @@ body {
 
 .main-container .calc-container {
   border-top: 1px solid gray;
+  /* display: block; */
 }
 
 .main-container .calc-container img {
@@ -61,6 +65,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: -30px;
+}
+.main-container .calc-container img:hover {
+  background-color: black;
 }
 .main-container .text-container {
   padding: 40px 0px;
@@ -81,8 +88,20 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .main-container img {
+  .main-container .flex-content .flex-box input {
+    width: 200px;
+  }
+  .main-container .flex-content .flex-box small {
+    width: 100%;
+  }
+  .main-container .calc-container img {
     margin-left: 94%;
-    margin-top: -30px;
+    margin-top: -35px;
+  }
+  .main-container .text-container {
+    padding: 0;
+  }
+  .main-container .text-container h1 {
+    font-size: 90px;
   }
 }
