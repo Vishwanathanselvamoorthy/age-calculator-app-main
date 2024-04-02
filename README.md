@@ -17,4 +17,4 @@ The Age Calculator is a simple web application designed to calculate a person's 
 2) CSS3 🎨
 3) JavaScript 🚀
 
-(Age Calculator Demo 🔗)[https://age-calculator-app-main-lime.vercel.app/]
+[Age Calculator Demo 🔗](https://age-calculator-app-main-lime.vercel.app/)
