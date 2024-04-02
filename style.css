@@ -17,14 +17,18 @@ body {
   border-radius: 20px 20px 80px 20px;
   padding: 30px;
   min-width: 368px;
-  /* display: block; */
 }
 .main-container .flex-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  border-bottom: 1px solid hsl(0, 1%, 44%);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.main-container .flex-content .flex-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 .main-container .flex-content .flex-box label {
   color: hsl(0, 1%, 44%);
@@ -32,13 +36,24 @@ body {
   letter-spacing: 3px;
 }
 .main-container .flex-content .flex-box input {
-  width: 60px;
-  border: 1px solid hsl(0, 1%, 44%);
-  padding: 10px 40px;
-  margin: 10px 0px 60px 0px;
+  width: 80px;
+  height: 45px;
   border-radius: 7px;
+  text-align: center;
+  border: 2px solid hsl(0, 1%, 44%);
 }
-.main-container img {
+.main-container .flex-content .flex-box small {
+  color: red;
+  font-size: 12px;
+  font-weight: 600;
+  width: 80px;
+}
+
+.main-container .calc-container {
+  border-top: 1px solid gray;
+}
+
+.main-container .calc-container img {
   background-color: hsl(259, 100%, 65%);
   border-radius: 100%;
   padding: 10px;
@@ -58,20 +73,16 @@ body {
   color: hsl(259, 100%, 65%);
 }
 
-/* @media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .main-container {
-    max-width: 1000px;
+    width: 800px;
   }
   .main-container .flex-content .flex-box {
     display: flex;
     flex-direction: column;
-    /* gap: 660px 660px 660px 660px; */
-/* }
-  .main-container .flex-content .flex-box input {
-    padding: 10px 50px;
   }
   .main-container img {
-    margin-left: 90%;
+    margin-left: 94%;
     margin-top: -30px;
   }
-} */
+}

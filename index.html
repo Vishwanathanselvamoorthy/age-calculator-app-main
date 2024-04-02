@@ -38,22 +38,28 @@
       <div class="flex-content">
         <div class="flex-box">
           <label>DAY</label>
-          <input type="number" />
+          <input id="day-input" type="number" placeholder="" />
+          <small id="error-day"></small>
         </div>
         <div class="flex-box">
           <label>MONTH</label>
-          <input type="number" />
+          <input id="month-input" type="number" />
+          <small id="error-month"></small>
         </div>
         <div class="flex-box">
           <label>YEAR</label>
-          <input type="number" />
+          <input id="year-input" type="number" />
+          <small id="error-year"></small>
         </div>
       </div>
-      <img src="./assets/images/icon-arrow.svg" />
+      <div class="calc-container">
+        <img class="calc-button" src="./assets/images/icon-arrow.svg" />
+      </div>
+
       <div class="text-container">
-        <h1><span>38</span> Years</h1>
-        <h1><span>3</span> Months</h1>
-        <h1><span>26</span> Days</h1>
+        <h1><span id="year-result">38</span> Years</h1>
+        <h1><span id="month-result">3</span> Months</h1>
+        <h1><span id="day-result">26</span> Days</h1>
       </div>
     </div>
     <script src="script.js"></script>
