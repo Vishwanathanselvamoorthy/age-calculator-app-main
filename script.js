@@ -117,7 +117,10 @@ function yearErrorMessages() {
 
 // Input Fields Responses Code
 
-dayInputValue.addEventListener('input', dayErrorMessages);
+dayInputValue.addEventListener('input', function () {
+  dayErrorMessages();
+  monthErrorMessages();
+});
 monthInputValue.addEventListener('input', monthErrorMessages);
 yearInputValue.addEventListener('input', yearErrorMessages);
 
